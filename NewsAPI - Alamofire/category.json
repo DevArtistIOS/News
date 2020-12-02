@@ -1,0 +1,30 @@
+{"category": [
+    {
+        "id" : "business",
+        "name" : "Бизнес"
+    },
+    {
+        "id" : "entertainment",
+        "name" : "Развлечения"
+    },
+    {
+        "id" : "general",
+        "name" : "Общие"
+    },
+    {
+        "id" : "health",
+        "name" : "Здоровье"
+    },
+    {
+        "id" : "science",
+        "name" : "Наука"
+    },
+    {
+        "id" : "sports",
+        "name" : "Спорт"
+    },
+    {
+        "id" : "technology",
+        "name" : "Технологии"
+    },
+]}

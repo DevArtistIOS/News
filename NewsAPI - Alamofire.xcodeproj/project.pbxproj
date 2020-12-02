@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08B737D9C9B1E9CEA8F0A329 /* Pods_NewsAPI___Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62BE379AB1081220202A4D6C /* Pods_NewsAPI___Alamofire.framework */; };
+		A815A74725665D4500294A09 /* Countries.swift in Sources */ = {isa = PBXBuildFile; fileRef = A815A74625665D4500294A09 /* Countries.swift */; };
+		A817570A255D8696009069EE /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8175709255D8696009069EE /* NewsViewModel.swift */; };
+		A8521B782564017C0015ECF2 /* FilterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8521B772564017C0015ECF2 /* FilterTableViewCell.swift */; };
+		A8521B7C25640DCB0015ECF2 /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8521B7B25640DCB0015ECF2 /* CountryViewController.swift */; };
+		A8521B7E25641EBC0015ECF2 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = A8521B7D25641EBC0015ECF2 /* countries.json */; };
+		A855C0A12576E44C00EADD40 /* NewsTableViewCell+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A855C0A02576E44C00EADD40 /* NewsTableViewCell+Layout.swift */; };
+		A8B6295B2567E8CD00646DDD /* CountryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B6295A2567E8CD00646DDD /* CountryDelegate.swift */; };
+		A8B6295D2567EC4C00646DDD /* CompositeURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B6295C2567EC4C00646DDD /* CompositeURL.swift */; };
+		A8BCD80A257648CE00A35FC2 /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = A8BCD809257648CE00A35FC2 /* category.json */; };
+		A8BCD81025764B7600A35FC2 /* Categoty.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BCD80F25764B7600A35FC2 /* Categoty.swift */; };
+		A8BCD81325764F2F00A35FC2 /* FilterVC+JSON Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BCD81225764F2F00A35FC2 /* FilterVC+JSON Bundle.swift */; };
+		A8BD2A87255B1EEA00A47016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BD2A86255B1EEA00A47016 /* AppDelegate.swift */; };
+		A8BD2A89255B1EEA00A47016 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BD2A88255B1EEA00A47016 /* SceneDelegate.swift */; };
+		A8BD2A8B255B1EEA00A47016 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BD2A8A255B1EEA00A47016 /* NewsViewController.swift */; };
+		A8BD2A90255B1EEC00A47016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BD2A8F255B1EEC00A47016 /* Assets.xcassets */; };
+		A8BD2A93255B1EEC00A47016 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BD2A91255B1EEC00A47016 /* LaunchScreen.storyboard */; };
+		A8BD2A9F255B201000A47016 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BD2A9E255B201000A47016 /* News.swift */; };
+		A8BD2AA3255B249700A47016 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BD2AA2255B249700A47016 /* NewsTableViewCell.swift */; };
+		A8BD2AA5255B283C00A47016 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BD2AA4255B283C00A47016 /* NetworkManager.swift */; };
+		A8BD2AA7255B2A5C00A47016 /* RequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BD2AA6255B2A5C00A47016 /* RequestData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F01AB61056DA6671CFA8510 /* Pods-NewsAPI - Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsAPI - Alamofire.release.xcconfig"; path = "Target Support Files/Pods-NewsAPI - Alamofire/Pods-NewsAPI - Alamofire.release.xcconfig"; sourceTree = "<group>"; };
+		62BE379AB1081220202A4D6C /* Pods_NewsAPI___Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_NewsAPI___Alamofire.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A815A74625665D4500294A09 /* Countries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries.swift; sourceTree = "<group>"; };
+		A8175709255D8696009069EE /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		A8521B772564017C0015ECF2 /* FilterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTableViewCell.swift; sourceTree = "<group>"; };
+		A8521B7B25640DCB0015ECF2 /* CountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
+		A8521B7D25641EBC0015ECF2 /* countries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
+		A855C0A02576E44C00EADD40 /* NewsTableViewCell+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewsTableViewCell+Layout.swift"; sourceTree = "<group>"; };
+		A8B6295A2567E8CD00646DDD /* CountryDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDelegate.swift; sourceTree = "<group>"; };
+		A8B6295C2567EC4C00646DDD /* CompositeURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeURL.swift; sourceTree = "<group>"; };
+		A8BCD809257648CE00A35FC2 /* category.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
+		A8BCD80F25764B7600A35FC2 /* Categoty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categoty.swift; sourceTree = "<group>"; };
+		A8BCD81225764F2F00A35FC2 /* FilterVC+JSON Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FilterVC+JSON Bundle.swift"; sourceTree = "<group>"; };
+		A8BD2A83255B1EEA00A47016 /* NewsAPI - Alamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NewsAPI - Alamofire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BD2A86255B1EEA00A47016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8BD2A88255B1EEA00A47016 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A8BD2A8A255B1EEA00A47016 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		A8BD2A8F255B1EEC00A47016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8BD2A92255B1EEC00A47016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8BD2A94255B1EEC00A47016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8BD2A9E255B201000A47016 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		A8BD2AA2255B249700A47016 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		A8BD2AA4255B283C00A47016 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A8BD2AA6255B2A5C00A47016 /* RequestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestData.swift; sourceTree = "<group>"; };
+		CB5147A3F6B5868D0FA06959 /* Pods-NewsAPI - Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsAPI - Alamofire.debug.xcconfig"; path = "Target Support Files/Pods-NewsAPI - Alamofire/Pods-NewsAPI - Alamofire.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8BD2A80255B1EEA00A47016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B737D9C9B1E9CEA8F0A329 /* Pods_NewsAPI___Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86203328AD90A78A0E9E0375 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB5147A3F6B5868D0FA06959 /* Pods-NewsAPI - Alamofire.debug.xcconfig */,
+				0F01AB61056DA6671CFA8510 /* Pods-NewsAPI - Alamofire.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A8B629592567E89600646DDD /* SupportProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				A8B6295A2567E8CD00646DDD /* CountryDelegate.swift */,
+				A8B6295C2567EC4C00646DDD /* CompositeURL.swift */,
+			);
+			path = SupportProtocols;
+			sourceTree = "<group>";
+		};
+		A8BD2A7A255B1EEA00A47016 = {
+			isa = PBXGroup;
+			children = (
+				A8BD2A85255B1EEA00A47016 /* NewsAPI - Alamofire */,
+				A8BD2A84255B1EEA00A47016 /* Products */,
+				86203328AD90A78A0E9E0375 /* Pods */,
+				DD2F4F3538B4ADCB2E5CD3C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8BD2A84255B1EEA00A47016 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8BD2A83255B1EEA00A47016 /* NewsAPI - Alamofire.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8BD2A85255B1EEA00A47016 /* NewsAPI - Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				A8D8D24C25754CAA00C57BD1 /* Extension */,
+				A8BD2A9A255B1FD100A47016 /* Model */,
+				A8BD2AA1255B21FD00A47016 /* View */,
+				A8BD2A9B255B1FD700A47016 /* ViewModel */,
+				A8BD2A9C255B1FE100A47016 /* Controller */,
+				A8BD2A9D255B1FF000A47016 /* NetworkManager */,
+				A8B629592567E89600646DDD /* SupportProtocols */,
+				A8BD2AA0255B21C400A47016 /* SupportFile */,
+				A8BD2A8F255B1EEC00A47016 /* Assets.xcassets */,
+				A8BD2A91255B1EEC00A47016 /* LaunchScreen.storyboard */,
+				A8BD2A94255B1EEC00A47016 /* Info.plist */,
+				A8521B7D25641EBC0015ECF2 /* countries.json */,
+				A8BCD809257648CE00A35FC2 /* category.json */,
+			);
+			path = "NewsAPI - Alamofire";
+			sourceTree = "<group>";
+		};
+		A8BD2A9A255B1FD100A47016 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8BD2A9E255B201000A47016 /* News.swift */,
+				A815A74625665D4500294A09 /* Countries.swift */,
+				A8BCD80F25764B7600A35FC2 /* Categoty.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8BD2A9B255B1FD700A47016 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A8175709255D8696009069EE /* NewsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A8BD2A9C255B1FE100A47016 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A8BD2A8A255B1EEA00A47016 /* NewsViewController.swift */,
+				A8521B7B25640DCB0015ECF2 /* CountryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A8BD2A9D255B1FF000A47016 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				A8BD2AA6255B2A5C00A47016 /* RequestData.swift */,
+				A8BD2AA4255B283C00A47016 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		A8BD2AA0255B21C400A47016 /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				A8BD2A86255B1EEA00A47016 /* AppDelegate.swift */,
+				A8BD2A88255B1EEA00A47016 /* SceneDelegate.swift */,
+			);
+			path = SupportFile;
+			sourceTree = "<group>";
+		};
+		A8BD2AA1255B21FD00A47016 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8BD2AA2255B249700A47016 /* NewsTableViewCell.swift */,
+				A8521B772564017C0015ECF2 /* FilterTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8D8D24C25754CAA00C57BD1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A8BCD81225764F2F00A35FC2 /* FilterVC+JSON Bundle.swift */,
+				A855C0A02576E44C00EADD40 /* NewsTableViewCell+Layout.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DD2F4F3538B4ADCB2E5CD3C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62BE379AB1081220202A4D6C /* Pods_NewsAPI___Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8BD2A82255B1EEA00A47016 /* NewsAPI - Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8BD2A97255B1EEC00A47016 /* Build configuration list for PBXNativeTarget "NewsAPI - Alamofire" */;
+			buildPhases = (
+				AD84A29C31543171C05718C5 /* [CP] Check Pods Manifest.lock */,
+				A8BD2A7F255B1EEA00A47016 /* Sources */,
+				A8BD2A80255B1EEA00A47016 /* Frameworks */,
+				A8BD2A81255B1EEA00A47016 /* Resources */,
+				C3A6D070454FCB31F265F213 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NewsAPI - Alamofire";
+			productName = "NewsAPI - Alamofire";
+			productReference = A8BD2A83255B1EEA00A47016 /* NewsAPI - Alamofire.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8BD2A7B255B1EEA00A47016 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = "Yura Fomin";
+				TargetAttributes = {
+					A8BD2A82255B1EEA00A47016 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = A8BD2A7E255B1EEA00A47016 /* Build configuration list for PBXProject "NewsAPI - Alamofire" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8BD2A7A255B1EEA00A47016;
+			productRefGroup = A8BD2A84255B1EEA00A47016 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8BD2A82255B1EEA00A47016 /* NewsAPI - Alamofire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8BD2A81255B1EEA00A47016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8521B7E25641EBC0015ECF2 /* countries.json in Resources */,
+				A8BD2A93255B1EEC00A47016 /* LaunchScreen.storyboard in Resources */,
+				A8BD2A90255B1EEC00A47016 /* Assets.xcassets in Resources */,
+				A8BCD80A257648CE00A35FC2 /* category.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD84A29C31543171C05718C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewsAPI - Alamofire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3A6D070454FCB31F265F213 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewsAPI - Alamofire/Pods-NewsAPI - Alamofire-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewsAPI - Alamofire/Pods-NewsAPI - Alamofire-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewsAPI - Alamofire/Pods-NewsAPI - Alamofire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8BD2A7F255B1EEA00A47016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BD2AA5255B283C00A47016 /* NetworkManager.swift in Sources */,
+				A8BCD81025764B7600A35FC2 /* Categoty.swift in Sources */,
+				A855C0A12576E44C00EADD40 /* NewsTableViewCell+Layout.swift in Sources */,
+				A8BCD81325764F2F00A35FC2 /* FilterVC+JSON Bundle.swift in Sources */,
+				A8BD2A8B255B1EEA00A47016 /* NewsViewController.swift in Sources */,
+				A8BD2A87255B1EEA00A47016 /* AppDelegate.swift in Sources */,
+				A8BD2AA3255B249700A47016 /* NewsTableViewCell.swift in Sources */,
+				A8521B782564017C0015ECF2 /* FilterTableViewCell.swift in Sources */,
+				A8BD2AA7255B2A5C00A47016 /* RequestData.swift in Sources */,
+				A8BD2A9F255B201000A47016 /* News.swift in Sources */,
+				A8B6295B2567E8CD00646DDD /* CountryDelegate.swift in Sources */,
+				A817570A255D8696009069EE /* NewsViewModel.swift in Sources */,
+				A8521B7C25640DCB0015ECF2 /* CountryViewController.swift in Sources */,
+				A815A74725665D4500294A09 /* Countries.swift in Sources */,
+				A8BD2A89255B1EEA00A47016 /* SceneDelegate.swift in Sources */,
+				A8B6295D2567EC4C00646DDD /* CompositeURL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8BD2A91255B1EEC00A47016 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8BD2A92255B1EEC00A47016 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8BD2A95255B1EEC00A47016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8BD2A96255B1EEC00A47016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8BD2A98255B1EEC00A47016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB5147A3F6B5868D0FA06959 /* Pods-NewsAPI - Alamofire.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NewsAPI - Alamofire/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yurafomin.NewsAPI---Alamofire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8BD2A99255B1EEC00A47016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F01AB61056DA6671CFA8510 /* Pods-NewsAPI - Alamofire.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NewsAPI - Alamofire/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yurafomin.NewsAPI---Alamofire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8BD2A7E255B1EEA00A47016 /* Build configuration list for PBXProject "NewsAPI - Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BD2A95255B1EEC00A47016 /* Debug */,
+				A8BD2A96255B1EEC00A47016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8BD2A97255B1EEC00A47016 /* Build configuration list for PBXNativeTarget "NewsAPI - Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BD2A98255B1EEC00A47016 /* Debug */,
+				A8BD2A99255B1EEC00A47016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8BD2A7B255B1EEA00A47016 /* Project object */;
+}
